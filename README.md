@@ -1,51 +1,61 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Here’s a concise description of your project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔹 Project Summary
+A React + TypeScript web app with:
 
-## Available Scripts
+Login Page
 
-In the project directory, you can run:
+Email, password, and company name fields
 
-### `npm start`
+Basic validation (required fields, email format)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Mock authentication (hardcoded credentials)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+User List Page
 
-### `npm test`
+Fetches users from Random User API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Infinite scroll: Loads 10 new users on scroll
 
-### `npm run build`
+Responsive design (mobile-friendly)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Logout button to return to login
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔹 Key Features
+No backend needed (frontend-only demo)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+TypeScript for type safety
 
-### `npm run eject`
+Clean UI with loading states
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Simple deployment (works with Vercel/Netlify)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔹 Demo Credentials
+Email: test@example.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Password: password123
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Company: Acme
 
-## Learn More
+(Hardcoded for testing—replace in Login.tsx for real use.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔹 Tech Stack
+React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# Helpee-Login-Task-
-User Login &amp; Infinite Scroll List - React TypeScript Project
->>>>>>> 8b697af79fe3d83aba1c211b9f9b396b45bc9598
+TypeScript
+
+Axios (API calls)
+
+React Router (navigation)
+
+CSS (no frameworks)
+
+Ideal for:
+
+Internship/job assignments
+
+Learning React + TypeScript patterns
+
+Practicing form validation and infinite scroll
+
+Let me know if you’d like to emphasize anything else!
