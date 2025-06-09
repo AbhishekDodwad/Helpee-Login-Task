@@ -1,3 +1,12 @@
+🔹 Demo Credentials
+Email: abhishek@gamil.com
+
+Password: abhi123
+
+Company: Helpee
+
+(Hardcoded for testing—replace in Login.tsx for real use.)
+
 Here’s a concise description of your project:
 
 🔹 Project Summary
@@ -30,14 +39,7 @@ Clean UI with loading states
 
 Simple deployment (works with Vercel/Netlify)
 
-🔹 Demo Credentials
-Email: test@example.com
 
-Password: password123
-
-Company: Acme
-
-(Hardcoded for testing—replace in Login.tsx for real use.)
 
 🔹 Tech Stack
 React
