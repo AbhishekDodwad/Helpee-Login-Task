@@ -1,78 +1,81 @@
-User Login & Infinite Scroll List - React TypeScript Project
-🚀 Project Overview
+# User Login & Infinite Scroll List - React TypeScript Project
+
+## 🚀 Project Overview
+
 A sleek React + TypeScript web application demonstrating:
 
-User Login with validation and mock authentication
-
-Infinite Scroll User List fetching data from the Random User API
-
-Responsive design optimized for all devices
-
-Smooth navigation and user-friendly interface
+- **User Login** with validation and mock authentication  
+- **Infinite Scroll User List** fetching data from the Random User API  
+- Responsive design optimized for all devices  
+- Smooth navigation and user-friendly interface  
 
 This project is ideal for learning React fundamentals, TypeScript best practices, and implementing infinite scroll in a real-world style app — without needing a backend!
 
-🔐 Demo Credentials
-Field	Value
-Email	abhishek@gamil.com
-Password	abhi123
-Company	Helpee
+---
 
-Note: These credentials are hardcoded in Login.tsx for demo purposes. Replace them as needed for production.
+## 🔐 Demo Credentials
 
-✨ Key Features
-Login Page
+| Field   | Value                |
+|---------|----------------------|
+| Email   | abhishek@gamil.com   |
+| Password| abhi123              |
+| Company | Helpee               |
 
-Email, password, and company name inputs
+> _Note: These credentials are hardcoded in `Login.tsx` for demo purposes. Replace them as needed for production._
 
-Form validation: required fields & valid email format
+---
 
-Mock login authentication
+## ✨ Key Features
 
-User List Page
+- **Login Page**  
+  - Email, password, and company name inputs  
+  - Form validation: required fields & valid email format  
+  - Mock login authentication  
 
-Fetch users from Random User API
+- **User List Page**  
+  - Fetch users from [Random User API](https://randomuser.me/)  
+  - Infinite scrolling: loads 10 new users as you scroll down  
+  - Loading indicators for smooth UX  
+  - Logout functionality to return to login screen  
 
-Infinite scrolling: loads 10 new users as you scroll down
+- **Tech & Tools**  
+  - React with TypeScript for strong typing and modern patterns  
+  - Axios for API requests  
+  - React Router for seamless page navigation  
+  - CSS-only styling for simplicity and easy customization  
 
-Loading indicators for smooth UX
+---
 
-Logout functionality to return to login screen
+## 📱 Responsive Design
 
-Tech & Tools
-
-React with TypeScript for strong typing and modern patterns
-
-Axios for API requests
-
-React Router for seamless page navigation
-
-CSS-only styling for simplicity and easy customization
-
-📱 Responsive Design
 The UI is built mobile-first, ensuring a great experience on smartphones, tablets, and desktops.
 
-🧰 Tech Stack
-Technology	Purpose
-React	UI library
-TypeScript	Type safety & code clarity
-Axios	API calls
-React Router	Client-side routing
-CSS	Styling
+---
 
-🎯 Who is this for?
-Interns and beginners wanting hands-on React + TypeScript experience
+## 🧰 Tech Stack
 
-Developers learning form validation, authentication flows, and infinite scroll
+| Technology     | Purpose                     |
+| -------------- | --------------------------- |
+| React          | UI library                  |
+| TypeScript     | Type safety & code clarity  |
+| Axios          | API calls                   |
+| React Router   | Client-side routing         |
+| CSS            | Styling                     |
 
-Anyone looking for a clean, frontend-only React project demo
+---
 
-🚀 How to Run
-Clone this repo
+## 🎯 Who is this for?
 
-Run npm install to install dependencies
+- Interns and beginners wanting hands-on React + TypeScript experience  
+- Developers learning form validation, authentication flows, and infinite scroll  
+- Anyone looking for a clean, frontend-only React project demo  
 
-Run npm start to launch the app locally
+---
 
-Use the demo credentials to log in
+## 🚀 How to Run
 
+```bash
+git clone <repo-url>
+cd <repo-folder>
+npm install
+npm start
