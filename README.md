@@ -1,4 +1,7 @@
-🔹 Demo Credentials
+User Login & Infinite Scroll List - React TypeScript Project
+
+
+Demo Credentials
 
 Email: abhishek@gamil.com
 
